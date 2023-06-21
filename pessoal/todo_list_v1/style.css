@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'PurpleSmile';
+    src: url(./fonts/Purple\ Smile.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Dunkin';
+    src: url(./fonts/Dunkin.otf) format('opentype');
+}
+
+body{
+    background-color:  #87BFFF;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #1B2021;
+    height: 200px;
+    box-shadow: 0px 2px 2px #1b2021;
+    color: #16E0BD;
+}
+header > h1{
+    margin: 0%;
+    padding-top: 40px;
+    font: bold 4em PurpleSmile;
+}
+
+section{
+    background-color:  #16E0BD;
+    height: 1000px;
+    line-height: 100px;
+    width: 50%;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1px #1b2021;
+}
+#dayweek{
+    margin: 0%;
+    font: normal 3em Dunkin;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #1B2021;
+    height: 80px;
+    padding: 20px 0px 0px 0px;
+    box-shadow: 0px -2px 2px #1b2021;
+    color: #16E0BD;
+    font-style: italic;
+}
+a#extLink{
+    color: #16E0BD;
+    text-decoration: none;
+}

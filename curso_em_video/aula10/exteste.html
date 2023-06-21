@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <style>
+        body{
+            background-color: rgb(215, 215, 208);
+            text-align: center;
+        }
+        h1{
+            color: brown;
+            height: 50px;
+        }
+        div{
+            font: bold 20pt Arial;
+            line-height: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(211, 211, 199)
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Números</h1>
+    <div id="operand1">
+        0
+    </div>
+    <div id="operator">
+        *
+    </div>
+    <div id="operand2">
+        0
+    </div>
+    <div id="equal">
+        =
+    </div>
+    <div id="result">
+        0
+    </div>
+
+    <script>
+        var a = window.document.querySelector('div#operand1')
+        var b = window.document.querySelector('div#operand2')
+        var c = window.document.querySelector('div#result')
+
+        c.innerHTML = a
+
+    </script>
+</body>
+</html>

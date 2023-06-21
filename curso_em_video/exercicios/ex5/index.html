@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Analisador de Números</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número (entre 1 e 100): <input type="number" name="num_in" id="num_in"><input type="button" value="Adicionar" onclick="list_append()"></p>
+        </div>
+        <div>
+            <p>
+                <select name="tabelavetor" id="tab" size="15">
+                    <option></option>
+                </select>
+            </p>
+            <p>
+                <input type="button" value="Finalizar" onclick="list_details()">
+                <input type="button" value="Limpar Lista" onclick="list_cleaner()">
+            </p>
+        </div>
+        <div id="desc">
+        </div>
+    </section>
+    <footer>
+        <p>Marcos L. da Silva<br/>&copy;2023</p>
+    </footer>
+</body>
+</html>
